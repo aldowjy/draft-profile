@@ -1,0 +1,80 @@
+#section_one {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    position: fixed;
+    overflow: hidden;
+    color: white;
+    /* background-color: #005EB8; */
+    background-color: #007CE8;
+    border-radius: 25px;
+    margin: 7px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0x 2px 6px 0px;
+}
+
+#section_two {
+    width: 75%;
+    float: right;
+    padding: 15px;
+    min-height: 15px;
+    box-sizing: border-box;
+}
+
+.lel {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.lol {
+    top: 3%;
+    width: 100%;
+    position: absolute;
+}
+
+.lol img {
+    width: 175px;
+    height: 175px;
+    margin-top: 20px;
+    border-radius: 50%;
+    
+}
+
+.list-group {
+    margin-top: 1vw;
+}
+
+.list-group-item {
+    background: transparent;
+    border: none;
+}
+
+.list-group-item:hover {
+    background: transparent;
+    border: none;
+    color: white;
+} 
+
+.list-group-item:hover span {
+    border-bottom: 1px white solid;
+}
+
+.list-group-item.active {
+    background-color: transparent;
+}
+
+.list-group-item:first-child, .list-group-item:last-child {
+    border-radius: 0px;
+}
+
+.list-group-item-action {
+    color: white;
+}
+
+h5 {
+    color: #505050;
+    font-size: 15px;
+}
